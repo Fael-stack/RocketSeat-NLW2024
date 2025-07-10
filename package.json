@@ -1,0 +1,35 @@
+{
+  "name": "nlw-agent",
+  "version": "1.0.0",
+  "description": "��#\u0000 \u0000R\u0000o\u0000c\u0000k\u0000e\u0000t\u0000S\u0000e\u0000a\u0000t\u0000-\u0000N\u0000L\u0000W\u00002\u00000\u00002\u00004\u0000\r\u0000 \u0000",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "start": "node --env-file .env --experimental-strip-types --no-warnings src/server.ts",
+    "dev": "node --env-file .env --experimental-strip-types --no-warnings --watch src/server.ts"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Fael-stack/RocketSeat-NLW2024.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Fael-stack/RocketSeat-NLW2024/issues"
+  },
+  "homepage": "https://github.com/Fael-stack/RocketSeat-NLW2024#readme",
+  "dependencies": {
+    "@fastify/cors": "^11.0.1",
+    "drizzle-orm": "^0.44.2",
+    "fastify": "^5.4.0",
+    "fastify-type-provider-zod": "^5.0.2",
+    "postgres": "^3.4.7",
+    "zod": "^3.25.76"
+  },
+  "devDependencies": {
+    "@biomejs/biome": "2.0.6",
+    "drizzle-kit": "^0.31.4",
+    "ultracite": "5.0.32"
+  }
+}
