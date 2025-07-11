@@ -6,7 +6,8 @@
   "type": "module",
   "scripts": {
     "start": "node --env-file .env --experimental-strip-types --no-warnings src/server.ts",
-    "dev": "node --env-file .env --experimental-strip-types --no-warnings --watch src/server.ts"
+    "dev": "node --env-file .env --experimental-strip-types --no-warnings --watch src/server.ts",
+    "db:seed": "node --env-file .env --experimental-strip-types --no-warnings src/db/seed.ts"
   },
   "repository": {
     "type": "git",
@@ -30,6 +31,7 @@
   "devDependencies": {
     "@biomejs/biome": "2.0.6",
     "drizzle-kit": "^0.31.4",
+    "drizzle-seed": "^0.3.1",
     "ultracite": "5.0.32"
   }
 }

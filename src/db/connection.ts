@@ -1,5 +1,5 @@
 import postgres from 'postgres';
-import { env } from '../src/env.ts';
+import { env } from '../env.ts';
 import { drizzle } from 'drizzle-orm/postgres-js';
 import { schema } from './schema/index.ts';
 
